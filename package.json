@@ -1,0 +1,27 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Getting started with webpack - installation, configuration and walkthrough using webpack as a bundle loader.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vynessa/webpack-starter.git"
+  },
+  "author": "Vanessa Ejikeme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vynessa/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/Vynessa/webpack-starter#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.6.0"
+  }
+}
